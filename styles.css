@@ -1,0 +1,72 @@
+/*
+Color Palette:
+#a5a2a2
+#0d0c0c
+#e5e5e5
+#ffffff
+#dd2020
+*/
+
+body {
+  background-color: #a5a2a2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+#container {
+  display: flex;
+  width: 400px;
+  height: 500px;
+  background-color: #e5e5e5;
+  border: solid black 2px;
+  border-radius: 0.5%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+#display {
+  display: flex;
+  flex: 0 0 335px;
+  height: 75px;
+  margin: 5px 5px 0 5px;
+  background-color: #a5a2a2;
+}
+
+#buttonsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: 80px;
+  height: 70px;
+  font-weight: 600;
+}
+
+#btnClear {
+  background-color: #dd2020;
+  color: #ffffff;
+}
+
+#btnClear:hover {
+  background-color: #dd4028;
+}
+
+#btnZero {
+  width: 165px;
+}
+
+#btnEquality {
+  background-color: #ff7901;
+}
+
+#btnEquality:hover {
+  background-color: #ff5900;
+}
